@@ -6,7 +6,7 @@ import android.util.Log;
  * Created by jimmyzhang on 2018/5/6.
  */
 
-public class Handgun extends AbstractGun {
+class Handgun extends AbstractGun {
 
     @Override
     void shoot() {

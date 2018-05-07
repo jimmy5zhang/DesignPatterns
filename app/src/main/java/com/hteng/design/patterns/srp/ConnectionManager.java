@@ -6,7 +6,7 @@ import android.util.Log;
  * Created by jimmyzhang on 2018/5/6.
  */
 
-public class ConnectionManager implements IConnectionManager {
+class ConnectionManager implements IConnectionManager {
 
     @Override
     public void dial(String phoneNumber) {

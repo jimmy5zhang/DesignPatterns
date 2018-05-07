@@ -6,11 +6,11 @@ import android.util.Log;
  * Created by jimmyzhang on 2018/5/6.
  */
 
-public class DataTransfer implements IDataTransfer {
+class DataTransfer implements IDataTransfer {
 
     IConnectionManager cm;
 
-    public DataTransfer(IConnectionManager cm) {
+    DataTransfer(IConnectionManager cm) {
         this.cm = cm;
     }
 
